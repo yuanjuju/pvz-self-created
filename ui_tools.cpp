@@ -59,7 +59,7 @@ void PrintWithColor(int num, int colorID)
 	SetColor(DEFAULT_COLOR); //输出结束后设置回默认色
 }
 
-void playMusic(int control,char name[])  //传入参数，当参数为0时播放音乐
+void playMusic(int control,const char name[])  //传入参数，当参数为0时播放音乐
 {
     if(control == 0)
     {

@@ -68,7 +68,7 @@ void SetColor(int colorID);
 void PrintWithColor(const string& str, int colorID = DEFAULT_COLOR);
 void PrintWithColor(int num, int colorID = DEFAULT_COLOR);
 
-void playMusic(int control,char name[] = "bgm.wav");
+void playMusic(int control,const char name[] = "bgm.wav");
 int getTerminalWidth();
 void printCentered(const string &text,int i);
 void printTitle(string filename);
