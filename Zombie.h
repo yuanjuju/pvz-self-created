@@ -1,9 +1,9 @@
 #pragma once
+#include"ui_tools.h"
 
 #include<string>
 using namespace std;
 
-#include"ui_tools.h"
 
 class Map;
 class Game;
